@@ -3,7 +3,7 @@ Feature addition of UDP Hole Punching to mosh
 * What is it
 
 Many firewalls allow UDP outbound and inbound responses.  If the
-most-server is listening behind such a firewall mosh-client can't
+mosh-server is listening behind such a firewall mosh-client can't
 reach it directly.  However, if the server sends out a UDP packet on
 the bound socket to the client (who may or may not receive it) then
 the firewall will retain an opening for any subsequent packets sent
